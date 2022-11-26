@@ -1,0 +1,8 @@
+.btn--trans{
+    @extend .f-size-xs;
+    @extend .f-weight--b;
+    padding: 1rem 2rem;
+    background-color: $color-transparent;
+    color: $color-white;
+    
+}

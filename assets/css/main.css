@@ -1,3 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap");
+.d-flex {
+  display: flex;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-none {
+  display: none;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-d-column {
+  flex-direction: column;
+}
+
+.f-wrap {
+  flex-wrap: wrap;
+}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -51,6 +78,44 @@ table {
 
 a {
   text-decoration: none;
+}
+
+html {
+  font-family: "Epilogue", sans-serif;
+}
+
+.f-size-xs, .btn--trans {
+  font-size: 0.875rem;
+}
+
+.f-size-s {
+  font-size: 1rem;
+}
+
+.f-size-m {
+  font-size: 1.5rem;
+}
+
+.f-size-l {
+  font-size: 2.5rem;
+}
+
+.f-size-xl {
+  font-size: 4rem;
+}
+
+.f-weight--r {
+  font-weight: 400;
+}
+
+.f-weight--b, .btn--trans {
+  font-weight: 800;
+}
+
+.btn--trans {
+  padding: 1rem 2rem;
+  background-color: transparent;
+  color: #fff;
 }
 
 /* For desktop: */
@@ -109,5 +174,5 @@ a {
   }
 }
 .header {
-  background-color: #2091F9;
+  background-color: #28293e;
 }/*# sourceMappingURL=main.css.map */

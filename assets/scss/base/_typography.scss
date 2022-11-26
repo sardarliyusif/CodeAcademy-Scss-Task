@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;800&display=swap');
+
+html{
+    font-family: 'Epilogue', sans-serif;
+}
+// Font sizes
+.f-size-xs{
+    font-size: $f-size-xs;
+}
+.f-size-s{
+    font-size: $f-size-s;
+}
+.f-size-m{
+    font-size: $f-size-m;
+}
+.f-size-l{
+    font-size: $f-size-l;
+}
+.f-size-xl{
+    font-size: $f-size-xl;
+}
+// Font Weight
+.f-weight--r{
+    font-weight: 400;
+}
+.f-weight--b{
+    font-weight: 800;
+}
